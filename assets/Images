@@ -1,0 +1,41 @@
+<section class="wrapper style2">
+    <div class="inner">
+        <header class="align-center">
+            <h2>International Law</h2>
+            <p>Explore the key principles and frameworks governing relations between nations.</p>
+        </header>
+
+        <p>
+            International law is a system of rules established by treaty or custom that governs the relations between nations. 
+            It ensures peaceful coexistence, facilitates international trade, and protects fundamental rights.
+        </p>
+
+        <p>
+            Key topics include:
+            <ul>
+                <li>Sovereignty and State Recognition</li>
+                <li>Diplomatic Relations</li>
+                <li>Environmental Law</li>
+                <li>Maritime Law</li>
+            </ul>
+        </p>
+
+        <!-- World Map Image -->
+        <section class="image">
+            <img src="assets/images/world-map.jpg" alt="World Map" width="600" height="400">
+            <p>Global map showing international relations.</p>
+        </section>
+
+        <!-- UN Flag Image -->
+        <section class="image">
+            <img src="assets/images/un-flag.jpg" alt="UN Flag" width="600" height="400">
+            <p>Flag of the United Nations, symbolizing global cooperation.</p>
+        </section>
+
+        <!-- UN Building Image -->
+        <section class="image">
+            <img src="assets/images/un-building.jpg" alt="UN Building" width="600" height="400">
+            <p>The United Nations headquarters, a center for international diplomacy.</p>
+        </section>
+    </div>
+</section>
