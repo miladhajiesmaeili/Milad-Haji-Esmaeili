@@ -1,0 +1,54 @@
+/* Contact Section */
+.contact-section {
+    background: url('https://path-to-your-image.com/contact-bg.jpg') no-repeat center center fixed; 
+    background-size: cover; /* Ensure the background image covers the section */
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-info {
+    font-family: 'Verdana', sans-serif;
+    margin-top: 30px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #FF5733; /* Orange color for links */
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #FFD700; /* Yellow color on hover */
+    text-decoration: underline;
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    .contact-section h2 {
+        font-size: 28px;
+    }
+    .contact-info p {
+        font-size: 16px;
+    }
+}
