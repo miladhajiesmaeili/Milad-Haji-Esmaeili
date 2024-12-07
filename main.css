@@ -60,10 +60,11 @@ body {
     background-repeat: no-repeat;
 }
 
-
+/* Banner Section */
 .banner.full {
     position: relative;
     width: 100%;
+    height: 100vh; /* Set the height to the full viewport height */
     overflow: hidden;
 }
 
@@ -72,7 +73,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the height to the full viewport height */
+    height: 100%; /* Set the height to the full section height */
 }
 
 .banner.full .inner {
@@ -81,6 +82,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: white; /* Set text color */
 }
 
 .banner.full img {
