@@ -59,3 +59,31 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
+.banner.full {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner.full article {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to the full viewport height */
+}
+
+.banner.full .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner.full img {
+    width: 100%;
+    height: auto;
+}
